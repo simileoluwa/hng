@@ -1,17 +1,3 @@
-const answer = document.querySelectorAll('currentDay');
-
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
-days.forEach((day,index)=>{
-    // Check if the index of day value is equal to the returned value of getDay()
-    if(index == new Date().getDay()){
-        console.log(day)}
-    }
-)
-
-answer.textContent = " " + days;
-
-
 const currentTime = document.getElementById("currentTime")
 const currentDay = document.getElementById("currentDay")
 
